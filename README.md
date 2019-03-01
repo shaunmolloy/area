@@ -24,6 +24,10 @@ python area.py "LS2 7HZ"
 
 - Recent House sales.
 
+Example
+
+<img width="192" alt="screen shot 2019-03-01 at 09 41 02" src="https://user-images.githubusercontent.com/8168925/53629728-3816cf00-3c06-11e9-9d18-afa1431428e4.png">
+
 ---
 
 ## Area
