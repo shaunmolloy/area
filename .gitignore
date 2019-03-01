@@ -1,2 +1,4 @@
 pp-complete.csv
+*.pyc
+.DS_Store
 
