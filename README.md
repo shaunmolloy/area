@@ -2,9 +2,9 @@
 
 ### Todo
 
-- [ ] Land Registry
+- [x] Land Registry
   - [x] Tenure
-  - [ ] House sales
+  - [x] House sales
 - [ ] Area
 - [ ] Broadband
 - [ ] Council Tax
@@ -26,7 +26,7 @@ python area.py "LS2 7HZ"
 
 Example
 
-<img width="192" alt="screen shot 2019-03-01 at 09 41 02" src="https://user-images.githubusercontent.com/8168925/53629728-3816cf00-3c06-11e9-9d18-afa1431428e4.png">
+<img width="652" alt="screen shot 2019-03-01 at 23 17 40" src="https://user-images.githubusercontent.com/8168925/53671935-659c6080-3c78-11e9-9e31-2a70dabb3ae9.png">
 
 ---
 
