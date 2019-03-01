@@ -3,6 +3,7 @@ Helpers
 author: Shaun Molloy <shaunmolloy@gmail.com>
 """
 import os
+import sys
 import requests
 import subprocess
 import shutil
@@ -14,6 +15,17 @@ def heading(text):
     print(text.center(80) )
     print('-' * 80)
     print('')
+
+
+def clear():
+    # Clear all text from screen.
+    print('\n' * 200)
+
+
+def die(msg="", code=0):
+    # Print a message and exit.
+    print(msg)
+    sys.exit(code)
 
 
 def find_in_file(find, filename):
