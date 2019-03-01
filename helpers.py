@@ -4,7 +4,24 @@ author: Shaun Molloy <shaunmolloy@gmail.com>
 """
 import os
 import requests
+import subprocess
 import shutil
+
+
+def heading(text):
+    print('')
+    print('-' * 80)
+    print(text.center(80) )
+    print('-' * 80)
+    print('')
+
+
+def find_in_file(find, filename):
+    p = subprocess.Popen(['grep', '-F', find, filename], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result, err = p.communicate()
+    if p.returncode != 0:
+        return None
+    return result.decode('UTF-8').splitlines()
 
 
 def download_file(filename, url):
